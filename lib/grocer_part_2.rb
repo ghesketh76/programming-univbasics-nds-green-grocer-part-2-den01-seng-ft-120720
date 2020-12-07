@@ -3,7 +3,11 @@ require "pry"
 
 
 def apply_coupons(cart, coupons)
- coupons.each do 
+ coupons.each do |coupon|
+   coupon.each do |attribute, value|
+     name = coupon[:item]
+     
+     
 end
 
 def apply_clearance(cart)
